@@ -1,0 +1,60 @@
+﻿<Application x:Class="VetCentar.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:VetCentar"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="MyWindowStyle" TargetType="{x:Type Window}">
+                <Setter Property="Background" Value="#ccffe6" />
+                <Setter Property="FontFamily" Value="Microsoft Sans Serif" />
+            </Style>
+
+            <Style x:Key="MyLabelStyle" TargetType="{x:Type Label}">
+                <Setter Property="FontFamily" Value="Microsoft Sans Serif" />
+            </Style>
+
+            <Style x:Key="MyTextBoxStyle" TargetType="{x:Type TextBox}">
+                <Setter Property="Background" Value="#e0ebeb" />
+                <Setter Property="FontFamily" Value="Microsoft Sans Serif" />
+            </Style>
+
+            <Style x:Key="MyPasswordBoxStyle" TargetType="{x:Type PasswordBox}">
+                <Setter Property="Background" Value="#e0ebeb" />
+                <Setter Property="FontFamily" Value="Microsoft Sans Serif" />
+            </Style>
+
+            <Style x:Key="MyMenuStyle" TargetType="{x:Type Menu}">
+                <Setter Property="Background" Value="#ccffe6" />
+                <Setter Property="FontFamily" Value="Microsoft Sans Serif" />
+            </Style>
+
+            <Style x:Key="MyButtonStyle" TargetType="{x:Type Button}">
+                <Setter Property="FontFamily" Value="Microsoft Sans Serif" />
+            </Style>
+
+            <Style x:Key="MyComboBoxStyle" TargetType="{x:Type ComboBox}">
+                <Setter Property="Background" Value="#e0ebeb" />
+                <Setter Property="FontFamily" Value="Microsoft Sans Serif" />
+            </Style>
+
+            <Style x:Key="MyDataGridStyle" TargetType="DataGrid">
+                <Setter Property="FontFamily" Value="Microsoft Sans Serif" />
+            </Style>
+
+            <Style x:Key="MyCheckBoxStyle" TargetType="CheckBox" >
+                <Setter Property="Background" Value="#e0ebeb" />
+            </Style>
+
+            <Style x:Key="MyRadioButtonStyle" TargetType="RadioButton">
+                <Setter Property="Background" Value="#e0ebeb" />
+                <Setter Property="FontFamily" Value="Microsoft Sans Serif" />
+            </Style>
+
+            <Style x:Key="MyDatePickerStyle" TargetType="DatePicker">
+                <Setter Property="Background" Value="#e0ebeb" />
+                <Setter Property="FontFamily" Value="Microsoft Sans Serif" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
